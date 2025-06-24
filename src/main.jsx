@@ -4,6 +4,7 @@ import './index.css'
 import BookRenewalSimulation from './BookRenewalSimulation.jsx';
 import ReviewComponent from "./ReviewComponent";
 import ReviewInventory from "./ReviewInventory";
+import BorrowedBooks from "./BorrowedBooks";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ReviewComponent />
     <BookRenewalSimulation />
     <ReviewInventory />
+    <BorrowedBooks />
   </React.StrictMode>
 );
